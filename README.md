@@ -9,7 +9,7 @@
 
 Реализация алгоритма Евклида на C++. (где a - наибольшее число, b - меньшее число):
 
-_Рекурсивная функция_
+[_Рекурсивная функция_](https://github.com/k0swel/types-of-sorting/blob/algorithms/algorithm_evklid/evklid_recusive.cpp)
 ```
 int evklid(int a, int b) {
     if (b == 0) return a;
@@ -17,7 +17,7 @@ int evklid(int a, int b) {
 }
 ```
 
-__Обычная функция__
+[__Обычная функция__](https://github.com/k0swel/types-of-sorting/blob/algorithms/algorithm_evklid/evklid_usual_func.cpp)
 ```
 int evklid(int a, int b) {
     while (b != 0) {
