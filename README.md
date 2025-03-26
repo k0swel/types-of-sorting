@@ -12,19 +12,19 @@
 _Рекурсивная функция_
 ```
 int evklid(int a, int b) {
-	if (b == 0) return a;
-	else evklid(b, a % b);
+    if (b == 0) return a;
+    else evklid(b, a % b);
 }
 ```
 
 __Обычная функция__
 ```
 int evklid(int a, int b) {
-	while (b != 0) {
-		int temp = a;
-		a = b;
-		b = temp % b;
-	}
-	return a;
+    while (b != 0) {
+        int temp = a;
+        a = b;
+        b = temp % b;
+    }
+    return a;
 }
 ```
