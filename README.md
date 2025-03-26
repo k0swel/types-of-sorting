@@ -28,4 +28,3 @@ int evklid(int a, int b) {
     return a;
 }
 ```
-.
